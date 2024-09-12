@@ -1,0 +1,48 @@
+.footer {
+  height: 350px;
+  width: 100%;
+  display: flex; /* Allow stacking content vertically */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  position: relative; /* Enable positioning of overlay */
+  overflow: hidden;
+}
+
+.footer .background {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://img.freepik.com/free-vector/v915_53876-174949.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black overlay */
+}
+
+.footer .content {
+  text-align: center;
+  color: #fff; /* White text for better contrast */
+  z-index: 1; /* Ensure content is displayed above the overlay */
+}
+
+.footer .info {
+  margin: 0 auto; /* Center information horizontally */
+  padding: 1rem;
+  line-height: 1.5; /* Improve readability on smaller screens */
+}
+.footer .info {
+  /* ... (estilos existentes) */
+  text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Adiciona um pouco de espaçamento entre os links */
+.footer .info p a {
+  margin: 0 5px;
+}

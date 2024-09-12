@@ -1,0 +1,64 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+  height: 500px;
+  background-image: url("https://img.freepik.com/vetores-gratis/fundo-de-linhas-dinamicas-de-estilo-de-papel_23-2149008629.jpg?t=st=1725500926~exp=1725504526~hmac=cd4190c23b5d819d2ba8ddca1915a19a03f9c546382f25217b49411e56e74f7c&w=740");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.imgperfil {
+  height: 500px;
+  margin-top: -0px;
+}
+.ola {
+  color: #f75023;
+  font-size: 30px;
+}
+.textLeft {
+  background-color: rgba(255, 255, 255, 0.116);
+  padding: 10px;
+  border-radius: 10px;
+}
+.textLeft h1 {
+  font-size: 45px;
+}
+.highlight {
+  color: #12e212;
+}
+.highlight2 {
+  color: #8067f0;
+}
+.text2 {
+  font-size: 25px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.button {
+  background-color: #f75023;
+  padding: 10px;
+  border-radius: 20px;
+}
+.button2 {
+  background-color: #12e212;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+}
+.btnSocial {
+  height: 40px;
+  width: 40px;
+}

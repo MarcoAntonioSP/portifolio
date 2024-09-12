@@ -1,0 +1,51 @@
+.hero {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+  height: 450px;
+}
+.imgBox {
+  box-sizing: border-box;
+  width: 40%;
+  padding: 50px;
+  margin-left: -50px;
+}
+.imgLeft {
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin: 20px;
+  margin-bottom: 70px;
+}
+.ola {
+  color: #f75023;
+  font-size: 30px;
+}
+.textLeft {
+  background-color: rgba(255, 255, 255, 0.116);
+  padding: 10px;
+  border-radius: 10px;
+}
+.textLeft h1 {
+  font-size: 45px;
+}
+
+.text2 {
+  font-size: 25px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.button {
+  background-color: #f75023;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
